@@ -1,0 +1,9 @@
+{
+  "src": [
+    "screen/StartScreen",
+    "screen/SplashScreen",
+    "screen/StageScreen",
+    "screen/ScoreScreen",
+    "screen/GameScene"
+  ]
+}

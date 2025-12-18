@@ -1,0 +1,12 @@
+{
+  "name": "game",
+  "version": "0.0.1",
+  "description": "Tank War Game.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@ohos/core":"file:../core/build/default/outputs/default/core.har"
+  }
+}
+

@@ -1,0 +1,52 @@
+{
+  "module": {
+    "name": "game",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "TankWar",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "TankWar",
+        "srcEntry": "./ets/TankWar.ets",
+        "description": "$string:GameAbility_desc",
+        "icon": "$media:tank",
+        "label": "$string:GameAbility_label",
+        "startWindowIcon": "$media:tank",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "ohos.want.action.home"
+            ]
+          }
+        ]
+      }
+    ],
+    "extensionAbilities": [
+      {
+        "name": "TankWarBackup",
+        "srcEntry": "./ets/TankWarBackup.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ]
+      }
+    ]
+  }
+}

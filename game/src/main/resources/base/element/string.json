@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "GameAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "GameAbility_label",
+      "value": "坦克大战"
+    }
+  ]
+}
